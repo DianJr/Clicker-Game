@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body {
+  background-color: black;
+}
+
+#titulo {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 80px;
+  text-transform: uppercase;
+  color: aquamarine;
+  background: linear-gradient(45deg, aquamarine, rgb(4, 245, 164), rgb(147, 243, 211), aquamarine);
+  background-size: 200% 200%;
+  animation: degrade 10s linear infinite alternate;
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+@keyframes degrade {
+  0% {
+    background-position-x: 0%;
+  }
+
+  100% {
+    background-position: 400%;
+  }
+
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#alpaca {
+  background-color: black;
+  cursor: pointer;
+  border: none;
+}
+
+.esquerda p {
+  color: aquamarine;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  font-size: 25px;
+    background: linear-gradient(45deg, aquamarine, rgb(4, 245, 164), rgb(147, 243, 211), aquamarine);
+  background-size: 200% 200%;
+  animation: degrade 10s linear infinite alternate;
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.upgrades h1 {
+  font-family: 'Oswald', sans-serif;
+  color: aquamarine;
+  font-size: 50px;
+  margin-left: 67px;
+  background: linear-gradient(45deg, aquamarine, rgb(4, 245, 164), rgb(147, 243, 211), aquamarine);
+  background-size: 200% 200%;
+  animation: degrade 10s linear infinite alternate;
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.upgrades button {
+  padding: 15px;
+  margin: 15px;
+  width: 284px;
+  height: 74px;
+  border-radius: 5px;
+  border: 2px solid rgb(195, 241, 255);
+  background-color: rgb(8, 8, 8);
+  color: rgb(113, 204, 174);
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 29px;
+  font-weight: 400;
+}
+#upgrade1{
+  background-image: url(10x.png);
+  background-size: 74px 74px;
+  background-position: right center;
+  background-repeat: no-repeat;
+  
+}
+#upgrade2{
+  background-image: url(50x.png);
+  background-size: 74px 74px;
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+#upgrade3{
+  background-image: url(100x.png);
+  background-size: 74px 74px;
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+
+.upgrades button:hover {
+  cursor: pointer;
+  color: rgb(184, 238, 255);
+  border: 2px solid rgb(184, 238, 255);
+}
+
+.upgrades p {
+  color: aquamarine;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  font-size: 25px;
+  background: linear-gradient(45deg, aquamarine, rgb(4, 245, 164), rgb(147, 243, 211), aquamarine);
+  background-size: 200% 200%;
+  animation: degrade 10s linear infinite alternate;
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
